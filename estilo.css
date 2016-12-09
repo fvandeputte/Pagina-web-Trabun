@@ -15,14 +15,18 @@
     background-size: 100% 100%;
 }
 -------------------------------- */
+.container-fluid {
+  margin-top: -20px;
+}
 .principal {
     width: 100%;
     padding: 0;
     margin: 0;
 }
 #logo {
-    height: 100px;
-    width: 100px;
+
+    height: 200px;
+    width: 200px;
 }
 
 .nav-tabs {
@@ -33,27 +37,46 @@
     display: block;
 }
 .pestana {
-    margin-top: 0em;
-    margin-bottom: 10em;
-    margin-left: 1em;
-    margin-right: 1em;
-    display: inline-table;
-    color: white;
-    text-decoration: none;
-
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-table;
+  text-decoration: none;
+  font-size: 20px;
 }
+
+#cuadrado_1 {
+  background-color: #009FE3;
+
+  height: 240px;
+}
+#cuadrado_2 {
+  background-color: #BCCF00;
+  height: 240px;
+}
+#cuadrado_3 {
+  background-color: #F39200;
+  height: 240px;
+}
+#cuadrado_4 {
+  background-color: #E30613;
+  height: 240px;
+}
+
 .link_inicio{
     color: white;
 
 }
 #bloque_superior {
   display: flex;
-    height: 100px;
+    height: 200px;
     width: 100%;
-    pointer-events: all;
+  pointer-events: none
+
 }
 #logo_portada {
-  width: 200px;
+  width: 50%;
   /* Just so it's visible */
 }
 #id_pestanas {
@@ -70,6 +93,7 @@ html {
 }
 
 body {
+  font-size: 1.6rem;
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
   color: #ffffff;
@@ -148,11 +172,12 @@ Slider
 .cd-slider-wrapper {
   position: relative;
   width: 100%;
-  max-width: 1024px;
+  max-width: 2000px;
   margin: 2em auto;
-    margin-top: -120px;
-    z-index: -1;
-    pointer-events: all;
+    margin-top: -220px;
+  margin-bottom: 0;
+
+
 
   /* hide horizontal scrollbar on IE11 */
   overflow-x: hidden;
@@ -164,17 +189,17 @@ Slider
   left: 0;
   width: 100%;
   opacity: 0;
-    z-index: -1;
+
   /* hide vertical scrollbar on IE11 */
   overflow: hidden;
 }
 .cd-slider > li.visible {
   position: relative;
-  z-index: 2;
+
   opacity: 1;
 }
 .cd-slider > li.is-animating {
-  z-index: 3;
+
   opacity: 1;
 }
 
@@ -199,7 +224,6 @@ Slider navigation
 -------------------------------- */
 .cd-slider-navigation li {
   position: absolute;
-  z-index: 3;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -218,7 +242,9 @@ Slider navigation
   text-indent: 100%;
   white-space: nowrap;
   color: transparent;
-  background: url(../imagenes/cd-icon-arrows.svg) no-repeat 0 0;
+  background: url(img/cd-icon-arrows.svg) no-repeat 0 0;
+  position: relative;
+  z-index: 100;
   -webkit-transition: -webkit-transform 0.2s;
   -moz-transition: -moz-transform 0.2s;
   transition: transform 0.2s;
@@ -253,7 +279,7 @@ Slider dots/controls
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  z-index: 3;
+
   text-align: center;
   width: 90%;
 }
