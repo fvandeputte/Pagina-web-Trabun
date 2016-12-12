@@ -23,10 +23,11 @@
     padding: 0;
     margin: 0;
 }
-#logo {
 
-    height: 200px;
-    width: 200px;
+
+.contenedor_logo {
+  z-index: 10000000;
+
 }
 
 .nav-tabs {
@@ -48,8 +49,9 @@
 
 #cuadrado_1 {
   background-color: #009FE3;
-
   height: 240px;
+  text-align: center;
+  padding: 50px;
 }
 #cuadrado_2 {
   background-color: #BCCF00;
@@ -70,17 +72,29 @@
 }
 #bloque_superior {
   display: flex;
-    height: 200px;
-    width: 100%;
-  pointer-events: none
+  height: 25%;
+  width: 100%;
+  pointer-events: none;
+  z-index: 10000;
 
 }
 #logo_portada {
-  width: 50%;
+  width: 20%;
   /* Just so it's visible */
 }
 #id_pestanas {
   flex: 1;
+
+}
+
+
+/** Titulos **/
+
+#titulo_1 {
+  font-size: 40px;
+  font-family: Trebuchet, Times, serif;
+  color: white;
+  
 
 }
 
@@ -174,8 +188,9 @@ Slider
   width: 100%;
   max-width: 2000px;
   margin: 2em auto;
-    margin-top: -220px;
   margin-bottom: 0;
+  margin-top: -220px;
+  z-index: -1;
 
 
 
