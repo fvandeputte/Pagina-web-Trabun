@@ -13,128 +13,123 @@
 </head>
 <body>
 	<!--header>
-		<h1>Animated SVG Image Slider</h1>
-
 		<ul class="cd-filter">
 			<li><a class="selected" href="index.html">Line 1</a></li>
 			<li><a href="line-2.html">Line 2</a></li>
 			<li><a href="curve.html">Curve</a></li>
-		</ul>
-	</header><-->
-	<div id="#portada">
-
-      <div id="bloque_superior">
-            <div id="logo_portada">
-                <img src="logo/logo.png" id="logo">
+		</ul> portada bloque superior
+	</header-->
+    <div>
+        <div id="header">
+            <div>
+                <a href="main.html">
+                    <img src="logo/logo.png" class="logo">
+                </a>
             </div>
+            <nav id="barra superior">
+                <div id="id_pestanas">
+                    <ul id="tabs">
+                        <li class="pestana"> <a href="index.html">Quienes somos</a></li>
+                        <li class="pestana"> <a href="index.html">Que hacemos</a></li>
+                        <li class="pestana"> <a href="index.html">Calendario 2017</a></li>
+                        <li class="pestana"> <a href="index.html">Noticias</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-            <div id="id_pestanas"><!--
-                <ul align="right" id="tabs_fran">
-                    <li class="pestana"> <a href="index.html" class="link_inicio"> Quienes somos</a></li>
-                    <li class="pestana"> <a href="index.html" class="link_inicio">Que hacemos</a></li>
-                    <li class="pestana"> <a href="index.html" class="link_inicio">Calendario 2017</a></li>
-					<li class="pestana"> <a href="index.html" class="link_inicio">Noticias</a></li>
+        <div class="cd-slider-wrapper">
 
-                </ul>
-            </div><-->
-         </div>
-		  </div>
+            <ul class="cd-slider" data-step1="M1402,800h-2V0h1c0.6,0,1,0.4,1,1V800z"
+                data-step2="M1400,800H379L771.2,0H1399c0.6,0,1,0.4,1,1V800z" data-step3="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z" data-step4="M-2,800h2V0h-1c-0.6,0-1,0.4-1,1V800z" data-step5="M0,800h1021L628.8,0L1,0C0.4,0,0,0.4,0,1L0,800z" data-step6="M0,800h1400V0L1,0C0.4,0,0,0.4,0,1L0,800z">
+                <li class="visible">
+                    <div class="cd-svg-wrapper">
 
+                        <svg viewBox="0 0 1400 800">
+                            <title>Aimated SVG</title>
+                            <defs>
+                                <clipPath id="cd-image-1">
+                                    <path id="cd-changing-path-1" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+                                </clipPath>
+                            </defs>
 
+                            <image class="imagen" height='800px' width="1400px" clip-path="url(#cd-image-1)" xlink:href="img/img-1.jpg"></image>
+                        </svg>
+                    </div> <!-- .cd-svg-wrapper -->
+                </li>
 
-	<div class="cd-slider-wrapper">
+                <li>
+                    <div class="cd-svg-wrapper">
+                        <svg viewBox="0 0 1400 800">
+                            <title>Aimated SVG</title>
+                            <defs>
+                                <clipPath id="cd-image-2">
+                                    <path id="cd-changing-path-2" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+                                </clipPath>
+                            </defs>
 
-		<ul class="cd-slider" data-step1="M1402,800h-2V0h1c0.6,0,1,0.4,1,1V800z"
-            data-step2="M1400,800H379L771.2,0H1399c0.6,0,1,0.4,1,1V800z" data-step3="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z" data-step4="M-2,800h2V0h-1c-0.6,0-1,0.4-1,1V800z" data-step5="M0,800h1021L628.8,0L1,0C0.4,0,0,0.4,0,1L0,800z" data-step6="M0,800h1400V0L1,0C0.4,0,0,0.4,0,1L0,800z">
-			<li class="visible">
-				<div class="cd-svg-wrapper">
+                            <image class="imagen" height='800px' width="1400px" clip-path="url(#cd-image-2)" xlink:href="img/img-5.jpg"></image>
+                        </svg>
+                    </div> <!-- .cd-svg-wrapper -->
+                </li>
 
-					<svg viewBox="0 0 1400 800">
-						<title>Aimated SVG</title>
-						<defs>
-							<clipPath id="cd-image-1">
-								<path id="cd-changing-path-1" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
-							</clipPath>
-						</defs>
+                <li>
+                    <div class="cd-svg-wrapper">
+                        <svg viewBox="0 0 1400 800">
+                            <title>Aimated SVG</title>
+                            <defs>
+                                <clipPath id="cd-image-3">
+                                    <path id="cd-changing-path-3" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+                                </clipPath>
+                            </defs>
 
-						<image class="imagen" height='800px' width="1400px" clip-path="url(#cd-image-1)" xlink:href="img/img-1.jpg"></image>
-					</svg>
-				</div> <!-- .cd-svg-wrapper -->
-			</li>
+                            <image class="image" height='800px' width="1400px" clip-path="url(#cd-image-3)" xlink:href="img/img-5.jpg"></image>
+                        </svg>
+                    </div> <!-- .cd-svg-wrapper -->
+                </li>
 
-			<li>
-				<div class="cd-svg-wrapper">
-					<svg viewBox="0 0 1400 800">
-						<title>Aimated SVG</title>
-						<defs>
-							<clipPath id="cd-image-2">
-								<path id="cd-changing-path-2" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
-							</clipPath>
-						</defs>
+                <li>
+                    <div class="cd-svg-wrapper">
+                        <svg viewBox="0 0 1400 800">
+                            <title>Aimated SVG</title>
+                            <defs>
+                                <clipPath id="cd-image-4">
+                                    <path id="cd-changing-path-4" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
+                                </clipPath>
+                            </defs>
 
-						<image class="imagen" height='800px' width="1400px" clip-path="url(#cd-image-2)" xlink:href="img/img-5.jpg"></image>
-					</svg>
-				</div> <!-- .cd-svg-wrapper -->
-			</li>
+                            <image class="imagen" height='800px' width="1400px" clip-path="url(#cd-image-4)" xlink:href="img/img-5.jpg"></image>
+                        </svg>
+                    </div> <!-- .cd-svg-wrapper -->
+                </li>
 
-			<li>
-				<div class="cd-svg-wrapper">
-					<svg viewBox="0 0 1400 800">
-						<title>Aimated SVG</title>
-						<defs>
-							<clipPath id="cd-image-3">
-								<path id="cd-changing-path-3" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
-							</clipPath>
-						</defs>
+            </ul> <!-- .cd-slider -->
 
-						<image class="image" height='800px' width="1400px" clip-path="url(#cd-image-3)" xlink:href="img/img-5.jpg"></image>
-					</svg>
-				</div> <!-- .cd-svg-wrapper -->
-			</li>
+            <ul class="cd-slider-navigation">
+                <li><a href="#0" class="next-slide">Next</a></li>
+                <li><a href="#0" class="prev-slide">Prev</a></li>
+            </ul> <!-- .cd-slider-navigation -->
 
-			<li>
-				<div class="cd-svg-wrapper">
-					<svg viewBox="0 0 1400 800">
-						<title>Aimated SVG</title>
-						<defs>
-							<clipPath id="cd-image-4">
-								<path id="cd-changing-path-4" d="M1400,800H0V0h1399c0.6,0,1,0.4,1,1V800z"/>
-							</clipPath>
-						</defs>
+            <ol class="cd-slider-controls">
+                <li class="selected"><a href="#0"><em>Item 1</em></a></li>
+                <li><a href="#0"><em>Item 2</em></a></li>
+                <li><a href="#0"><em>Item 3</em></a></li>
+                <li><a href="#0"><em>Item 4</em></a></li>
+            </ol> <!-- .cd-slider-controls -->
+        </div> <!-- .cd-slider-wrapper -->
 
-						<image class="imagen" height='800px' width="1400px" clip-path="url(#cd-image-4)" xlink:href="img/img-5.jpg"></image>
-					</svg>
-				</div> <!-- .cd-svg-wrapper -->
-			</li>
+        <div class="container-fluid">
+            <div class="row">
+                <a href="index.html">
+                    <div class="col-sm-3" id="cuadrado_1"><h1 id="titulo_1">Quienes somos</h1></div>
+                </a>
+                <div class="col-sm-3" id="cuadrado_2">Galería</div>
+                <div class="col-sm-3" id="cuadrado_3">Calendario </div>
+                <div class="col-sm-3" id="cuadrado_4">Contáctanos</div>
+            </div>
+        </div>
+    </div>
 
-		</ul> <!-- .cd-slider -->
-
-		<ul class="cd-slider-navigation">
-			<li><a href="#0" class="next-slide">Next</a></li>
-			<li><a href="#0" class="prev-slide">Prev</a></li>
-		</ul> <!-- .cd-slider-navigation -->
-
-		<ol class="cd-slider-controls">
-			<li class="selected"><a href="#0"><em>Item 1</em></a></li>
-			<li><a href="#0"><em>Item 2</em></a></li>
-			<li><a href="#0"><em>Item 3</em></a></li>
-			<li><a href="#0"><em>Item 4</em></a></li>
-		</ol> <!-- .cd-slider-controls -->
-	</div> <!-- .cd-slider-wrapper -->
-		</div>
-
-<div class="container-fluid">
-  <div class="row">
-    <a href="index.html"> <div class="col-sm-3" id="cuadrado_1"><h1 id="titulo_1">Quienes somos</h1></div> </a>
-    <div class="col-sm-3" id="cuadrado_2">Galería </div>
-    <div class="col-sm-3" id="cuadrado_3">Calendario </div>
-      <div class="col-sm-3" id="cuadrado_4">Contáctanos</div>
-
-
-  </div>
-
-
-</div>
 <script src="jquery-2.1.4.js"></script>
 <script src="jquery.mobile.custom.min.js"></script>
 <script src="snap.svg-min.js"></script>
