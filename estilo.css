@@ -65,9 +65,10 @@
 
 #header {
     height: 80px;
-    background-color: #009FE3;
     min-width: 600px;
     display: flex;
+    position: relative;
+    z-index: 1000;
 }
 
 
@@ -155,7 +156,6 @@ body {
     font-size: 1.6rem;
     font-family: "Source Sans Pro", sans-serif;
     color: #ffffff;
-    background-color: #00171F;
 }
 
 a {
@@ -220,8 +220,8 @@ Slider
 
     /* hide horizontal scrollbar on IE11 */
     overflow-x: hidden;
-    z-index: -1;
-    margin-top: -80px;
+    z-index: 1;
+    margin-top: -100px;
 }
 
 .cd-slider > li {
@@ -288,7 +288,7 @@ Slider navigation
     color: transparent;
     background: url(img/cd-icon-arrows.svg) no-repeat 0 0;
     position: relative;
-    z-index: 100;
+    z-index: 1000000;
     -webkit-transition: -webkit-transform 0.2s;
     -moz-transition: -moz-transform 0.2s;
     transition: transform 0.2s;

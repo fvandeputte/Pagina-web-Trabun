@@ -1,0 +1,13 @@
+#contenedor_calendario{
+    height: 100%;
+    width: 100%;
+}
+
+.calendario_mes {
+    max-height: 800px;
+    max-width: 800px;
+}
+
+#fondo {
+    color: #00A7E1;
+}

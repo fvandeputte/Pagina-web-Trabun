@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendario</title>
+    <link rel="stylesheet" type="text/css" href="estilo_calendario.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script>
+        //funcion que cambia las imagenes
+
+    function cambiar_imagen() {
+        // seleccion guarda que mes elegi segun el 'valor' asignado cuando se crea la lista
+        seleccion = document.forms[0].meses.value;
+        var top = document.getElementById(seleccion).offsetTop;
+        window.scrollTo(0, top)
+        }
+
+
+</script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+<div id="header">
+			<div id="contenedor_logo">
+                <a href="main.html">
+                    <img src="logo/logo.png" class="logo">
+                </a>
+			</div>
+			<div id="contenedor_pestanas">
+                <div class="dropdown">
+                  <button class="dropbtn">Contacto</button>
+
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Actividades</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Quienes hacemos</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Quienes somos</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div>
+			    </div>
+
+        </div>
+
+        </div>
+<div align="center" id="fondo">
+    <h5>Seleccione el mes</h5>
+    <form>
+    <select id="meses" on onchange="cambiar_imagen()">
+        <option value="marzo">Marzo</option>
+        <option value="abril">Abril</option>
+        <option value="mayo">Mayo</option>
+        <option value="junio">Junio</option>
+    </select>
+    </form>
+    <div id="contenedor_calendario">
+        <img id="marzo" class="calendario_mes" src="calendario/2017_marzo.png">
+        <img id="abril" class="calendario_mes" src="calendario/2017_abril.png">
+        <img id="mayo"  class="calendario_mes" src="calendario/2017_mayo.png">
+        <img id="junio" class="calendario_mes" src="calendario/2017_junio.png">
+        </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+</body>
+</html>
