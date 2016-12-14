@@ -5,7 +5,26 @@ Puzzle Template
 http://www.templatemo.com/tm-477-puzzle
 
 */
+#header{
+    background-color: #3e8e41;
+}
 
+.dropdown{
+    background-color: #3e8e41;
+}
+
+#parrafo_singapur{
+    color: #1b6d85;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#titulo_singapur{
+    color: #1b6d85;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding-left: 22%;
+
+}
 #texto{
     color: #1b6d85;
     font-family: 'Open Sans', sans-serif;
@@ -38,12 +57,11 @@ a:focus {
 body{
     margin:0;
     padding:0;
-    background-image:url(../images/back.jpg);
-    background-repeat:no-repeat;
     background-size:100% 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight:300;
+    background-color: lightblue;
 }
 .row {
     margin-right: 0px;
