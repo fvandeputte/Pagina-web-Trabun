@@ -1,15 +1,18 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
+    <link rel="stylesheet" type="text/css" href="../estilo.css">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Quienes somos</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,60 +37,83 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-            </div>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+    <div id="principal">
+        <div id="header">
+            <div id="contenedor_logo">
+                <a href="../main.html">
+                    <img src="../logo/logo.png" class="logo">
+                </a>
+            </div> <!-- .contenedor_logo -->
+            <div id="contenedor_pestanas">
+                <div class="dropdown">
+                  <button class="dropbtn">Contacto</button>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Actividades</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div> <!-- .dropdown-content -->
+                </div> <!-- .dropdown -->
+                <div class="dropdown">
+                  <button class="dropbtn">Qué hacemos</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div> <!-- .dropdown-content -->
+                </div> <!-- .dropdown -->
+                <div class="dropdown">
+                  <button class="dropbtn">Quienes somos</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div> <!-- .dropdown-content -->
+                </div> <!-- .dropdown -->
+
+        </div> <!-- .contenedor_pestana -->
+
+        </div> <!-- .header -->
+    </div>
     </nav>
 
-    <!-- Header -->
-    <header>
+
+    <!-- About Section -->
+    <section class="success" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
-                    </div>
+                <div class="col-lg-12 text-center">
+                    <h2>Mision</h2>
+                    <hr class="star-light">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Contribuir a la formación integral de niños mediante el fortalecimiento de la labor de los colegios con talleres extraprogramáticos que desarrollan nuevas habilidades y permiten formar un vínculo entre el tutor y los niños que tiene a su cargo.</p>
+                </div>
+<!--                 <div class="col-lg-4">
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                </div> -->
+<!--                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div> -->
+            </div>
         </div>
-    </header>
+    </section>
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Mision</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -156,30 +182,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact">
